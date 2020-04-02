@@ -1,8 +1,6 @@
 .App {
+  margin-top: 5em;
   text-align: center;
-}
-
-h1, h2 {
   color: teal;
 }
 
@@ -31,7 +29,7 @@ h1, h2 {
 .profiles {
   display: flex;
   justify-content: space-around;
-  
+  flex-wrap: wrap;
 }
 
 .App-header {
