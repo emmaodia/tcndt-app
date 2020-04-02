@@ -30,7 +30,7 @@ const App = () => {
       </form>
       <div className="profiles">
         {profiles.map(profile => (
-          <Profiles 
+          <Profiles
             key={profile.firstName}
             firstName={profile.firstName}
             lastName={profile.lastName}

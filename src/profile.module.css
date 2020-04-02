@@ -1,5 +1,40 @@
 .profile {
+    box-shadow: 1px 1px 40px -8px teal;
+    padding: 10%;
+    margin: 2px;
+    text-align: center;
+    background-color: white;
+    color:teal;
     border-radius: 10px;
+}
+
+.profile:hover {
+    animation-name: background-color;
+    animation-duration: 1000ms;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: turquoise;
+        color: whitesmoke;
+    }
+}
+
+.prof {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+}
+
+h2 {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+p { 
+    display: flex;
+    flex-direction: row;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 500;
+    font-size: 20px;
 }
