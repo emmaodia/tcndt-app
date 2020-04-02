@@ -23,7 +23,8 @@ const App = () => {
 
   return (
     <div className='App'>
-      <h1>Hello World</h1>
+      <h1>Hello! Welcome to the the TCN Digital Track 2020.</h1>
+      <h2>You can search for all Technical Professionals that are part of this cohort by Specialty</h2>
       <form className="search-form">
         <input className="search-bar" type='text' />
   <button className="search-button" type='submit'>Search</button>

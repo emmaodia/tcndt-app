@@ -1,6 +1,6 @@
 .profile {
-    box-shadow: 1px 1px 40px -8px teal;
-    padding: 10%;
+    box-shadow: 0.5px 0.5px 20px -8px teal;
+    padding: 2em 15em;
     margin: 2px;
     text-align: center;
     background-color: white;
@@ -9,8 +9,12 @@
 }
 
 .profile:hover {
-    animation-name: background-color;
-    animation-duration: 1000ms;
+    background-color: turquoise;
+    color: whitesmoke;
+    /* animation-name: background-color;
+    animation-duration: 1;
+    animation-timing-function: ease-in; */
+    /* animation-iteration-count: infinite; */
 }
 
 @keyframes background-color {
@@ -20,9 +24,27 @@
     }
 }
 
-.prof {
+/* .prof {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.prof h2, .prof p {
+    display: flex;
+    margin: 0;
+  }
+
+.prof button {
+    background-color: whitesmoke;
+    color: teal;
+    border-radius: 5px;
+    padding: 0.5em 0.5em;
+    margin-top: 5px;
+}
+
+.prof button:hover {
+    color: gray;
 }
 
 h2 {
@@ -32,8 +54,6 @@ h2 {
 }
 
 p { 
-    display: flex;
-    flex-direction: row;
     font-family: 'Baloo Thambi 2', cursive;
     font-weight: 500;
     font-size: 20px;

@@ -6,12 +6,13 @@ const Profiles = ({firstName, lastName, specialty, experience, cv, workAt, email
     return(
         <div className={style.profile}>
             <div className={style.prof}>
-            <h2>{firstName} {lastName}</h2>
-            <p>Specialty: {specialty}</p>
-            <p>experience: {experience} years</p>
-            {/* <p>{cv}</p>
-            <p>{workAt}</p>
-            <p>{email}</p> */}
+                <h2>{firstName} {lastName}</h2>
+                <p>Specialty: {specialty}</p>
+                <p>experience: {experience} years</p>
+                <button>View More</button>
+                {/* <p>{cv}</p>
+                <p>{workAt}</p>
+                <p>{email}</p> */}
             </div>
         </div>
     )
