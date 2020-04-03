@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () => {
 
-  const exReq = `http://localhost:5000/api/v1/profile`
+  const exReq = `https://tcn-dt-api.herokuapp.com/api/v1/profile/`
 
   const [profiles, setProfiles] = useState([]);
 
