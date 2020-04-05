@@ -22,7 +22,7 @@
 }
 
 .image:hover {
-    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    /* webkit-filter: blur(1px); Chrome, Safari, Opera */
     filter: blur(1px);
 }
 
