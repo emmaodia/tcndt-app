@@ -32,7 +32,7 @@ const App = () => {
       <div className="profiles">
         {profiles.map(profile => (
           <Profiles
-            key={profile._id}
+            key={profile.firstName}
             firstName={profile.firstName}
             lastName={profile.lastName}
             specialty={profile.specialty}
