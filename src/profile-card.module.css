@@ -1,14 +1,37 @@
-.profile {
+.card {
+    display: flex;
     box-shadow: 0.5px 0.5px 20px -8px teal;
-    padding: 2em 15em;
-    margin: 2px;
+    /* padding: 5em 10.5em; */
+    margin: 1em; 
     text-align: center;
     background-color: white;
     color:teal;
     border-radius: 10px;
+    width: 500px;
+    height:18.75em;
 }
 
-.profile:hover {
+.image {
+    /* width: 50%;
+    height: 50%; */
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-right: 3em;
+    /* border: solid 1px; */
+}
+
+.image:hover {
+    webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
+}
+
+/* .prof {
+    display: flex;
+    margin: 0;
+  } */
+
+.card:hover {
     background-color: turquoise;
     color: whitesmoke;
     /* animation-name: background-color;
@@ -30,9 +53,9 @@
     justify-content: center;
 } */
 
-.prof h2, .prof p {
+.prof h2, .prof p, .prof button {
     display: flex;
-    margin: 0;
+    padding: 0.3125em 0.3125em;
   }
 
 .prof button {
@@ -40,7 +63,7 @@
     color: teal;
     border-radius: 5px;
     padding: 0.5em 0.5em;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .prof button:hover {
@@ -49,12 +72,12 @@
 
 h2 {
     font-family: 'Baloo Thambi 2', cursive;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 p { 
     font-family: 'Baloo Thambi 2', cursive;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
 }
