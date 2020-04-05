@@ -1,5 +1,4 @@
 import React from 'react';
-//import Profile from './Profile.js'
 import profileCard from './profile-card.module.css'
 import {Image, Transformation} from 'cloudinary-react';
 
@@ -9,7 +8,7 @@ const Profiles = ({firstName, lastName, specialty, experience, cv, workAt, email
         <div className={profileCard.card}>
             <div className={profileCard.image}>
                 <Image cloudName="emmaodia" publicId="emmaodia.jpg" secure="true">
-                    <Transformation width="200" height="200" gravity="face" radius="5" crop="thumb" />
+                    <Transformation width="200" height="250" gravity="face" radius="5" crop="thumb" />
                 </Image>
             </div>
         
